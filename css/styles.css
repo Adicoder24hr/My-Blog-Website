@@ -10,17 +10,16 @@ body {
 }
 
 body main .hero-section {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/images/bg2.jpg");
+  background-image: url("../images/bg2.jpg");
   background-size: 100%;
   background-position: 50% 40%;
   background-repeat: no-repeat;
   position: relative;
 }
-
 body main .hero-section .bg {
   width: 100%;
   height: 100%;
@@ -30,11 +29,9 @@ body main .hero-section .bg {
   z-index: 2;
   opacity: 0.7;
 }
-
 body main .hero-section .navbar {
   display: flex;
   width: 100%;
-  height: -moz-fit-content;
   height: fit-content;
   justify-content: space-between;
   align-items: center;
@@ -42,36 +39,30 @@ body main .hero-section .navbar {
   position: relative;
   z-index: 3;
 }
-
 body main .hero-section .navbar h2 {
   font-size: 25px;
   color: #fff;
 }
-
 body main .hero-section .navbar nav ul {
   display: flex;
 }
-
 body main .hero-section .navbar nav ul li {
   padding: 2px;
   list-style: none;
   border: 1px solid #fff;
   border-radius: 20px;
 }
-
 body main .hero-section .navbar nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 15px;
   padding: 3px 6px;
 }
-
 body main .hero-section .navbar nav ul li:hover {
   background-color: #e93c1a;
   color: #fff;
   cursor: pointer;
 }
-
 body main .hero-section .text-wrapper {
   width: 100vw;
   height: 100vh;
@@ -81,44 +72,36 @@ body main .hero-section .text-wrapper {
   z-index: 3;
   bottom: 40px;
 }
-
 body main .hero-section .text-wrapper h1 {
   padding: 100px 10vw;
   font-size: 70px;
   text-transform: uppercase;
   color: #fff;
 }
-
 body main .about {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 body main .about .About-info {
   width: 80%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 body main .about .About-info h2 {
   text-transform: uppercase;
   font-size: 20px;
   opacity: 0.5;
 }
-
 body main .about .About-info p {
   max-width: 100%;
   font-size: 40px;
 }
-
 body main .about .About-info .btn {
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   padding: 15px;
   border: none;
@@ -128,26 +111,23 @@ body main .about .About-info .btn {
   border-radius: 20px;
   font-family: "Oswald", sans-serif;
 }
-
 body main .about .About-info .btn:hover {
   background-color: #375002;
   color: #fff;
   cursor: pointer;
 }
-
 body main .vision {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/bg3.jpg");
+  background-image: url("../images/bg3.jpg");
   background-size: 100%;
   background-position: 50% 40%;
   background-repeat: no-repeat;
   position: relative;
 }
-
 body main .vision .bg {
   width: 100%;
   height: 100%;
@@ -157,7 +137,6 @@ body main .vision .bg {
   z-index: 2;
   opacity: 0.7;
 }
-
 body main .vision .vision-info {
   width: 51%;
   display: flex;
@@ -170,25 +149,20 @@ body main .vision .vision-info {
   top: 25%;
   left: 24%;
 }
-
 body main .vision .vision-info h2 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
   color: #C3FB4D;
 }
-
 body main .vision .vision-info p {
   max-width: 100%;
   font-size: 40px;
   text-align: center;
   color: #fff;
 }
-
 body main .vision .vision-info .btn-2 {
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   padding: 15px;
   border: none;
@@ -199,9 +173,8 @@ body main .vision .vision-info .btn-2 {
   font-family: "Oswald", sans-serif;
   color: black;
 }
-
 body main .vision .vision-info .btn-2:hover {
   background-color: rgba(78, 75, 75, 0.485);
   color: #fff;
   cursor: pointer;
-} 
+}
