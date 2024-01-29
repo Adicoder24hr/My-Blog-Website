@@ -10,7 +10,7 @@ body {
 }
 
 body main .hero-section {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@ body main .hero-section .text-wrapper h1 {
   color: #fff;
 }
 body main .about {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ body main .about .About-info .btn:hover {
   cursor: pointer;
 }
 body main .vision {
-  width: 100vw;
+  width: 100dvw;
   height: 100vh;
   display: flex;
   align-items: center;

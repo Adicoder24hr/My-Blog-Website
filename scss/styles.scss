@@ -4,11 +4,11 @@
 body{
     main{
         .hero-section{
-            width: 100vw;
+            width: 100dvw;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            background-image: url('/images/bg2.jpg');
+            background-image: url('../images/bg2.jpg');
             background-size:100%;
             background-position: 50% 40%;
             background-repeat: no-repeat;
@@ -84,7 +84,7 @@ body{
         }
 
         .about{
-            width: 100vw;
+            width: 100dvw;
             height: 100vh;
             display: flex;
             align-items: center;
@@ -128,12 +128,12 @@ body{
         }
 
         .vision{
-            width: 100vw;
+            width: 100dvw;
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url('/images/bg3.jpg');
+            background-image: url('../images/bg3.jpg');
             background-size: 100%;
             background-position: 50% 40%;
             background-repeat: no-repeat;
