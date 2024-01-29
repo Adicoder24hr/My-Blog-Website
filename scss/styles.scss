@@ -4,8 +4,10 @@
 body{
     main{
         .hero-section{
-            width: 100dvw;
+            max-width: 100vw;
             height: 100vh;
+            width: 100%;
+            height: 100dvh;
             display: flex;
             flex-direction: column;
             background-image: url('../images/bg2.jpg');
@@ -84,8 +86,10 @@ body{
         }
 
         .about{
-            width: 100dvw;
+            max-width: 100vw;
             height: 100vh;
+            width: 100%;
+            height: 100dvh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -128,8 +132,10 @@ body{
         }
 
         .vision{
-            width: 100dvw;
+            max-width: 100vw;
             height: 100vh;
+            width: 100%;
+            height: 100dvh;
             display: flex;
             align-items: center;
             justify-content: center;

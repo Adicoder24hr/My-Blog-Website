@@ -10,8 +10,10 @@ body {
 }
 
 body main .hero-section {
-  width: 100dvw;
+  max-width: 100vw;
   height: 100vh;
+  width: 100%;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   background-image: url("../images/bg2.jpg");
@@ -79,8 +81,10 @@ body main .hero-section .text-wrapper h1 {
   color: #fff;
 }
 body main .about {
-  width: 100dvw;
+  max-width: 100vw;
   height: 100vh;
+  width: 100%;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,8 +121,10 @@ body main .about .About-info .btn:hover {
   cursor: pointer;
 }
 body main .vision {
-  width: 100dvw;
+  max-width: 100vw;
   height: 100vh;
+  width: 100%;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
